@@ -1,0 +1,19 @@
+enterpriseCode: 1122
+#logging:
+ # level:
+    #root: error
+server:
+  port: 8080
+spring:
+  application:
+    name: sync-data-client
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    name: defaultDataSource
+    password: root
+    url: jdbc:mysql://localhost:3306/test?serverTimezone=UTC
+    username: root
+nettyServer:
+  ip: 127.0.0.1
+  name: nettyServer
+  port: 9998
