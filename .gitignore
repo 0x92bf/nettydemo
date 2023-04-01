@@ -1,0 +1,7 @@
+.idea
+out
+gen
+/target
+/.idea/**
+/files
+/logs
